@@ -150,16 +150,15 @@ textarea {
 
 .textareacontainer {
     /* margin: 0 20px; */
-
     flex: 1 0 75%;
 }
 
 .exportbuttons {
-    flex: 1 0 15%;
+    flex: 1 0 15%; 
     display: flex;
+    flex-flow: row;
     justify-content: space-evenly;
     align-items: center;
-    /* background-color: green; */
 }
 
 .export {
