@@ -4,7 +4,7 @@
     box-sizing: border-box;
     font-family: 'Noto Sans JP', sans-serif;
     font-weight: 300;
-    font-size: 28px;
+    font-size: 20px;
 }
 
 .container {
@@ -20,7 +20,7 @@
 
 
 h1 {
-    font-size: 100px;
+    font-size: 80px;
     margin: 0;
     padding: 0;
     font-family: 'Courier New', Courier, monospace;
@@ -67,7 +67,7 @@ input {
     padding-left: 4px;
     margin: 0;
     border-radius: 10px;
-    border: solid gray 2px;
+    border: solid gray 1px;
 }
 
 /* Chrome, Safari, Edge, Opera */
@@ -83,12 +83,12 @@ input[type=number] {
 }
 
 p {
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 300;
 }
 
 hr {
-    border-top: 2px solid gray;
+    border-top: 1px solid gray;
     width: 100%;
 }
 
