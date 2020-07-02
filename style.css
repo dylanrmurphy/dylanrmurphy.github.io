@@ -189,7 +189,7 @@ textarea {
     align-items: stretch; */
 
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: column;
     height: 100vh;
 }
 
