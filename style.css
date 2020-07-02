@@ -1,0 +1,221 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 300;
+    font-size: 28px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+
+
+
+
+h1 {
+    font-size: 100px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: 'gilroy';
+    src: url(/Radomir\ Tinkov\ -\ Gilroy-ExtraBold.otf);
+    font-style: normal;
+    font-weight: 100;
+}
+
+.view {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.btn {
+    height: 50px;
+    display: block;
+    color: black;
+    text-decoration: none;
+}
+
+.btn:hover {
+    color: gray;
+    cursor: pointer;
+}
+
+.view2 {
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+}
+
+input {
+    width: 80px;
+    height: 40px;
+    padding-left: 4px;
+    margin: 0;
+    border-radius: 10px;
+    border: solid gray 2px;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+p {
+    font-size: 25px;
+    font-weight: 300;
+}
+
+hr {
+    border-top: 2px solid gray;
+    width: 100%;
+}
+
+textarea:focus {
+    outline: none;
+}
+input:focus {
+    outline: none;
+}
+
+textarea {
+    padding: 30px;
+    resize: none;
+    width: 100%;
+    height: 100%;
+    border: none;
+    font-size: 20px;
+    line-height: 0.9rem;
+}
+
+.progressbarcontainer {
+
+    flex: 1 0 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.progressbar {
+
+    width: 95%;
+    height: 55px;
+    border-radius: 10px;
+    border: lightgrey 1px solid;
+    text-align: center;
+    font-size: 20px;
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-weight: 300;
+    line-height: 53px;
+    color: rgb(43, 42, 42);
+    
+    
+}
+.current-progress {
+
+    z-index: -1;
+    position: relative;
+    transform: translateY(-53px);
+    width: 0%;
+    height: 53px;
+    background-color: rgb(82, 202, 92);
+    font-size: 20px;
+    border-radius: 10px;
+    line-height: 53px;
+    color: rgb(43, 42, 42);
+    
+
+}
+
+
+.textareacontainer {
+    /* margin: 0 20px; */
+
+    flex: 1 0 75%;
+}
+
+.exportbuttons {
+    flex: 1 0 15%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* background-color: green; */
+}
+
+.export {
+    /* background-color: white; */
+    height: 50%;
+    width: 40%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.copy {
+    /* background-color: white; */
+    height: 50%;
+    width: 40%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.writingflex {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch; */
+
+    display: flex;
+    flex-flow: column wrap;
+    height: 100vh;
+}
+
+.noclick {
+    color: lightgray;
+    cursor: not-allowed;
+}
+
+.canclick {
+    color: rgb(82, 202, 92);
+}
+
+.canclick:hover {
+    color: rgb(139, 241, 148);
+    cursor: pointer;
+}
+
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Old versions of Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome, Edge, Opera and Firefox */
+
+}
+
+
