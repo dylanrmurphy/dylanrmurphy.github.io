@@ -35,3 +35,7 @@ input {
     border-radius: 10px;
     border: solid gray 1px;
 }
+
+.container {
+    height: 80vh;
+}
